@@ -30,7 +30,7 @@ def generate_word_list(letters_list: list, symbols_list: list, numbers_list: lis
     return "".join(letters_list + symbols_list + numbers_list)
 
 
-def password_generator(num_letters: int , num_of_symbols: int, num_of_numbers: int)-> str:
+def password_generator(num_of_letters: int , num_of_symbols: int, num_of_numbers: int)-> str:
     """_Function that generates a password_
 
     Args:
@@ -45,7 +45,7 @@ def password_generator(num_letters: int , num_of_symbols: int, num_of_numbers: i
     numbers = list(range(10))
     symbols = ["!", "#", "$", "%", "&", "(", ")", "*", "+"]
 
-    letters_s = generate_letters(letters, num_letters)
+    letters_s = generate_letters(letters, num_of_letters)
     symbols_s = generate_letters(symbols, num_of_symbols)
     numbers_s = generate_letters(numbers, num_of_numbers)
 
