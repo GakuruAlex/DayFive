@@ -2,7 +2,7 @@ import string
 from random import choice, shuffle
 
 def generate_letters(which_set, number: int)-> list:
-    """_ Generate  letters using choice method_
+    """_ Generate a list letters using choice method_
 
     Args:
         which_set (_type_): _list to get letters from_
