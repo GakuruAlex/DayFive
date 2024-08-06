@@ -13,7 +13,7 @@ def generate_letters(which_set, number: int)-> list:
     """
     word = []
     for _ in range(number):
-        word.append(choice(which_set))
+        word.append(str(choice(which_set)))
     return word
 
 def generate_word_list(letters_list: list, symbols_list: list, numbers_list: list)-> str:
