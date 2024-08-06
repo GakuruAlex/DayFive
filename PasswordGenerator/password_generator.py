@@ -51,6 +51,5 @@ def password_generator(num_of_letters: int , num_of_symbols: int, num_of_numbers
 
     password = generate_word_list(letters_s, symbols_s, numbers_s)
 
-    #shuffle(password)
 
     return password
